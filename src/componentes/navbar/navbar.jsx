@@ -5,9 +5,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import CartWidgetComponent from '../CartWidgetComponent/CartWidgetComponent';
 
 const NavBarComponent = () => {
-    const spanStyles = {
+    const Styles = {
         color: 'red',
-        fontWeight: '600'
+        fontWeight: '600',
     }
     return (<Navbar expand="lg" className="bg-body-tertiary">
     <Container>
